@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e8e3ff, #fde2d1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    width: 450px;
+    padding: 30px;
+    border-radius: 22px;
+    box-shadow: 0 12px 35px rgba(120, 100, 200, 0.15);
+    text-align: center;
+}
+
+h1 {
+    color: #7b5de6;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 14px;
+    border: 1px solid #cfc6ff;
+    font-size: 14px;
+    background-color: #f3f0ff;
+}
+
+input:focus {
+    outline: none;
+    border-color: #7b5de6;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 14px;
+    background: #ff8fab;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #fb6f92;
+    transform: scale(1.03);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+li {
+    background: #cde7f0;
+    margin-bottom: 12px;
+    padding: 14px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.task-info {
+    text-align: left;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.task-buttons button {
+    background: #90dbf4;
+    margin-left: 6px;
+    padding: 6px 9px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.task-buttons button.delete {
+    background: #ff758f;
+}
